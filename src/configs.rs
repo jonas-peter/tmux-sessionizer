@@ -1,6 +1,6 @@
 use clap::ValueEnum;
 use error_stack::{Result, ResultExt};
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 use std::{env, fmt::Display, fs::canonicalize, io::Write, path::PathBuf};
 
 use ratatui::style::{Color, Style};
